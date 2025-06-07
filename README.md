@@ -37,3 +37,5 @@ SPA-приложение для просмотра каталога фильмо
 ---
 
 # GitHub Pages
+
+https://fllopperr.github.io/SPA-Library/
