@@ -19,11 +19,11 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import CatalogItem from '@/components/CatalogItem.vue'
+import SearchBar from '@/components/SearchBar.vue'
+import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import initialBooks from '../data/data.js'
-import SearchBar from '@/components/SearchBar.vue'
-import CatalogItem from '@/components/CatalogItem.vue'
 
 const router = useRouter()
 const books = ref([...initialBooks])

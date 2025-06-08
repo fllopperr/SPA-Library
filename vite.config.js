@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-	base: '/Library/',
+	base: '/SPA-Library/',
 	plugins: [vue(), vueDevTools()],
 	resolve: {
 		alias: {
